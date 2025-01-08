@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: #000;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #5c2d91;
+    padding: 15px;
+    color: white;
+}
+
+.header span {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Profile Section */
+.profile-section {
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 auto 10px;
+}
+
+.profile-section h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.tier-badge {
+    background-color: #5c2d91;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/* Info Section */
+.info-section {
+    margin: 20px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    font-size: 14px;
+    color: #555;
+}
+
+.info-value {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.copy-button {
+    background-color: #5c2d91;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.upgrade-button {
+    background-color: #5c2d91;
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.unverified-badge {
+    background-color: #5c2d91;
+    color: white;
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+/* Action Buttons */
+.action-section {
+    margin: 20px;
+}
+
+.action-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #5c2d91;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: white;
+    color: #000;
+}
+
+/* Hover Effect for Buttons */
+.action-button:hover {
+    background-color: #5c2d91;
+    color: white;
+}
+
+body {
+    background-color: #f5f5f5; /* Matches dashboard page */
+    color: #333; /* Matches text color on the dashboard */
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #fff; /* Matches dashboard header */
+    color: #333;
+}
+
+.profile-section {
+    background-color: #fff;
+}
+
+.profile-avatar img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.settings-list .settings-item {
+    background-color: #fff;
+    color: #333;
+}
+
+.settings-item:hover {
+    background-color: #f0f0f0; /* Subtle hover effect */
+}
+
+.settings-item h3 {
+    font-size: 16px;
+}
+
+.settings-item small {
+    font-size: 12px;
+    color: #666;
+}
+
+.sign-out {
+    background-color: #fff;
+    color: #d9534f; /* Matches a danger theme */
+    font-weight: bold;
+}
+
+ /* Updated Bottom Navigation */
+ .bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #5c2d91; /* Updated background color */
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.bottom-nav a {
+    text-align: center;
+    color: white; /* Updated text/icon color */
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.bottom-nav a span {
+    display: block;
+    font-size: 20px;
+    color: white; /* Updated icon color */
+}
